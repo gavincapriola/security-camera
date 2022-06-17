@@ -1,6 +1,6 @@
 ## Security Camera with Python
 
-We’re using the haarcascade algorithm to detect faces and bodies, pre-built by OpenCV.
+We’re using the haarcascade algorithm to detect faces and eyes, pre-built by OpenCV.
 
 ## :package: Download and Setup
 
