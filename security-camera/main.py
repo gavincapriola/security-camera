@@ -32,8 +32,8 @@ class HomeSecuritySystem:
 
             if len(faces) > 0:
                 out.write(frame)
-                if len(faces) == 0:
-                    out.release()
+            elif len(faces) == 0:
+                out.release()
 
             cv2.imshow("Security Camera", frame)
             if cv2.waitKey(1) & 0xFF == ord('q'):
